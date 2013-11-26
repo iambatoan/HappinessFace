@@ -21,6 +21,7 @@
 		84DDABF618433ADB00142ADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84DDABD818433ADA00142ADE /* UIKit.framework */; };
 		84DDABFE18433ADB00142ADE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84DDABFC18433ADB00142ADE /* InfoPlist.strings */; };
 		84DDAC0018433ADB00142ADE /* HappinessFaceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDABFF18433ADB00142ADE /* HappinessFaceTests.m */; };
+		84DDAC0B18433B7C00142ADE /* FaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDAC0A18433B7C00142ADE /* FaceView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		84DDABFB18433ADB00142ADE /* HappinessFaceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HappinessFaceTests-Info.plist"; sourceTree = "<group>"; };
 		84DDABFD18433ADB00142ADE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84DDABFF18433ADB00142ADE /* HappinessFaceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HappinessFaceTests.m; sourceTree = "<group>"; };
+		84DDAC0918433B7C00142ADE /* FaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FaceView.h; sourceTree = "<group>"; };
+		84DDAC0A18433B7C00142ADE /* FaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FaceView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				84DDABE618433ADB00142ADE /* Main.storyboard */,
 				84DDABE918433ADB00142ADE /* HappinessViewController.h */,
 				84DDABEA18433ADB00142ADE /* HappinessViewController.m */,
+				84DDAC0918433B7C00142ADE /* FaceView.h */,
+				84DDAC0A18433B7C00142ADE /* FaceView.m */,
 				84DDABEC18433ADB00142ADE /* Images.xcassets */,
 				84DDABDB18433ADA00142ADE /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				84DDABE518433ADB00142ADE /* HappinessAppDelegate.m in Sources */,
 				84DDABE118433ADB00142ADE /* main.m in Sources */,
 				84DDABEB18433ADB00142ADE /* HappinessViewController.m in Sources */,
+				84DDAC0B18433B7C00142ADE /* FaceView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
